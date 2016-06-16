@@ -11,6 +11,8 @@ android {
         versionCode 1
         versionName "1.0"
         multiDexEnabled true
+//        testInstrumentationRunner "com.google.android.apps.common.testing.testrunner.GoogleInstrumentationTestRunner"
+//        testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
     }
     buildTypes {
         release {
@@ -32,4 +34,5 @@ dependencies {
     compile 'com.google.android.gms:play-services:9.0.2'
     compile 'com.android.support:multidex:1.0.1'
     compile project(path: ':backend', configuration: 'android-endpoints')
+    testCompile  'org.mockito:mockito-all:1.8.4'
 }
