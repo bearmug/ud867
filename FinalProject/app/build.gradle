@@ -15,10 +15,10 @@ android {
 
     productFlavors {
         free {
-
+            applicationIdSuffix '.free'
         }
         paid {
-
+            applicationIdSuffix '.paid'
         }
     }
 

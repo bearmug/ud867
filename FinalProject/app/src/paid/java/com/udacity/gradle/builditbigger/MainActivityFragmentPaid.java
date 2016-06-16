@@ -6,8 +6,8 @@ import android.os.Bundle;
 /**
  * A placeholder fragment containing a simple view.
  */
-public class MainActivityFragment extends Fragment {
+public class MainActivityFragmentPaid extends Fragment {
 
-    public MainActivityFragment() {
+    public MainActivityFragmentPaid() {
     }
 }
